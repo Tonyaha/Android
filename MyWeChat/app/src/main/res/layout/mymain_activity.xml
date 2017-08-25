@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPage"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="17"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#d8d8da" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout"
+        android:background="#64d6bd">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="4"
+            android:orientation="horizontal"
+            android:id="@+id/qs_top_radioGroup">
+
+            <RadioButton
+                android:id="@+id/mychat_message"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:checked="true"
+                android:gravity="center"
+                android:text="首页"
+                android:textColor="@drawable/trade_bottom_text"
+                android:drawableTop="@drawable/trade_bottom_home" />
+
+            <RadioButton
+                android:id="@+id/mychat_maillist"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:text="分类"
+                android:textColor="@drawable/trade_bottom_text"
+                android:drawableTop="@drawable/trade_bottom_classify"/>
+
+            <RadioButton
+                android:id="@+id/trade_add"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:text="发布"
+                android:textColor="@drawable/trade_bottom_text"
+                android:drawableTop="@drawable/trade_bottom_add"/>
+
+            <!--<RadioButton
+                android:id="@+id/mychat_found"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:text="购物车"
+                android:textColor="@drawable/trade_bottom_text"
+                android:drawableTop="@drawable/trade_bottom_cart"/>-->
+
+            <RadioButton
+                android:id="@+id/mychat_mine"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:text="我的"
+                android:textColor="@drawable/trade_bottom_text"
+                android:drawableTop="@drawable/trade_bottom_mine"/>
+        </RadioGroup>
+
+    </LinearLayout>
+
+</LinearLayout>

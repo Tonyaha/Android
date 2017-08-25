@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- 通用颜色 -->
+    <color name="transparent">#00FFFFFF</color>
+    <color name="white">#FEFDFD</color>
+    <color name="background">#F5F5F5</color>
+
+
+
+    <!-- 控件颜色（ViewColor简写为VC） -->
+    <color name="VC_solid">#E5E5EA</color>
+    <color name="VC_stroke">#C6C9CB</color>
+    <color name="VC_divide_line">#A7AAAD</color>
+
+
+
+    <!-- 文字颜色（TextColor简写为TC） -->
+    <color name="TC_white">#FFFFFF</color>
+    <color name="TC_common">#4B4B4B</color>
+    <color name="TC_cannot_edit">#859090</color>
+    <color name="TC_edit">#201f20</color>
+    <color name="TC_edit_hint">#e09e5e</color>
+
+
+
+    <color name="nbcb_theme">#FAB724</color>
+    <color name="theme_rose">#E71B64</color>
+    <color name="window_bg">#efefef</color>
+    <color name="line_color">#C1B9B9</color>
+    <color name="view_color">#C1B9B9</color>
+    <color name="bluegreen">#90F2B8</color>
+
+
+    <!-- 多客户列表不同客户类型Item背景色 -->
+    <color name="custType_4">#FFBF04</color>
+    <color name="custType_5">#C4BFC4</color>
+    <color name="custType_6">#74E598</color>
+    <color name="custType_7">#C46FE8</color>
+    <color name="custType_8">#ED6F7C</color>
+</resources>

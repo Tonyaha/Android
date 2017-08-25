@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/shape">
+
+    <ImageView
+        android:src="@drawable/pic2"
+        android:layout_weight="2"
+        android:id="@+id/iv1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+    <LinearLayout
+        android:background="@drawable/shape"
+        android:layout_weight="1"
+        android:layout_below="@+id/iv1"
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:text="商品名："
+            android:textSize="18dp"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/et_gname"
+            android:background="@drawable/shape"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:id="@+id/fenlei"
+        android:layout_below="@id/name"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:background="@drawable/shape">
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:text="分类："
+            android:textSize="18dp"
+            android:layout_width="90dp"
+            android:layout_height="match_parent" />
+
+        <Spinner
+            android:gravity="center"
+            android:background="@drawable/shape"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/spinner"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:background="@drawable/shape"
+        android:layout_weight="1"
+        android:layout_below="@id/fenlei"
+        android:id="@+id/jiage"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:text="价格(元)："
+            android:textSize="18dp"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:gravity="center"
+            android:background="@drawable/shape"
+            android:id="@+id/et_price"
+            android:layout_width="90dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:background="@drawable/shape"
+            android:gravity="center"
+            android:text="原价(元)："
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <EditText
+            android:gravity="center"
+            android:background="@drawable/shape"
+            android:id="@+id/et_oldprice"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="4"
+        android:id="@+id/jianjie"
+        android:layout_below="@+id/jiage"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:background="@drawable/shape">
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:text="商品简介："
+            android:textSize="18dp"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:background="@drawable/shape"
+            android:id="@+id/et_desc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:maxLength="100" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:background="#64d6bd"
+        android:layout_weight="1"
+        android:text="发布商品"
+        android:textSize="30dp"
+        android:id="@+id/fabu"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/jianjie"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+
+
+</LinearLayout>

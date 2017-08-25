@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="10dp"
+    android:background="#f9fcfb"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+        <ImageView
+            android:src="@drawable/trade_bottom_home"
+            android:id="@+id/user_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <TextView
+            android:id="@+id/user_name"
+            android:paddingLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="username"
+            android:textSize="30dp"
+            />
+    </LinearLayout>
+    <TextView
+        android:padding="5dp"
+        android:id="@+id/desc"
+        android:text="出捷安特gtx777山地自行车，九成以上新，详见图片，非诚勿扰。"
+        android:textSize="20dp"
+        android:layout_below="@+id/line1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:padding="10dp"
+        android:id="@+id/line2"
+        android:layout_below="@+id/desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/price"
+            android:text="价格：$200"
+            android:textColor="#f4b909"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:id="@+id/oldprice"
+            android:text="原价:$2000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginLeft="80dp"
+            android:id="@+id/g_name"
+            android:text="自行车"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_below="@+id/line2"
+        android:padding="10dp"
+        android:id="@+id/line3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/phone"
+            android:text="联系：18697920720"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <ImageView
+        android:layout_below="@+id/line3"
+        android:id="@+id/g_pic"
+        android:src="@drawable/trade_bottom_mine"
+        android:layout_width="match_parent"
+        android:layout_height="180dp" />
+
+
+</RelativeLayout>

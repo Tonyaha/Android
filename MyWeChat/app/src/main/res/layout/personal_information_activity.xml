@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffff">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="个人中心"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="#9bf0db"
+        android:textSize="20dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp">
+
+        <Button
+            android:id="@+id/change"
+            android:layout_marginTop="50dp"
+            android:gravity="left|center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="修改个人信息"
+            android:textSize="20dp"
+            android:background="#ffff" />
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/gm"
+            android:gravity="left|center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="商品管理"
+            android:textSize="20dp"
+            android:background="#ffff"/>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
